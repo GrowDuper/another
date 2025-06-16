@@ -1,3 +1,5 @@
+-- Changer 1
+
 -- SERVICES
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
@@ -198,4 +200,4 @@ animateLoadingBar()
 
 -- LOAD GROWDUPER HUB AFTER GUI APPEARS
 task.wait(1)
-loadstring(game:HttpGet("https://pastefy.app/0zX3kQZJ/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrowDuper/main-screen/refs/heads/main/screen"))()
